@@ -1,0 +1,79 @@
+{
+  "timezone": "Asia/Shanghai",
+  "dailyJournal": {
+    "dataSourceId": "replace-with-daily-journal-data-source-id",
+    "dateProperty": "日期"
+  },
+  "databases": [
+    {
+      "name": "Task",
+      "dataSourceId": "replace-with-task-data-source-id",
+      "relationProperty": "📔 关联日记",
+      "date": {
+        "mode": "created_time",
+        "property": "创建时间"
+      },
+      "titleProperties": ["任务", "Name", "Title"]
+    },
+    {
+      "name": "Flomo",
+      "dataSourceId": "replace-with-flomo-data-source-id",
+      "relationProperty": "📔 关联日记",
+      "date": {
+        "mode": "date",
+        "property": "Created At"
+      },
+      "titleProperties": ["Name", "Title"]
+    },
+    {
+      "name": "Podwise",
+      "dataSourceId": "replace-with-podwise-data-source-id",
+      "relationProperty": "📔 关联日记",
+      "date": {
+        "mode": "created_time",
+        "property": "Created time"
+      },
+      "titleProperties": ["Episode", "Name", "Title"]
+    },
+    {
+      "name": "Library",
+      "dataSourceId": "replace-with-library-data-source-id",
+      "relationProperty": "📔 关联日记",
+      "date": {
+        "mode": "date_fallback",
+        "properties": ["Last Synced", "Last Highlighted"]
+      },
+      "titleProperties": ["Title", "Full Title"]
+    },
+    {
+      "name": "Getnotes",
+      "dataSourceId": "replace-with-getnotes-data-source-id",
+      "relationProperty": "📔 关联日记",
+      "date": {
+        "mode": "date",
+        "property": "Created At"
+      },
+      "titleProperties": ["Name", "Title"]
+    },
+    {
+      "name": "KnowBase",
+      "dataSourceId": "replace-with-knowledge-base-data-source-id",
+      "relationProperty": "📔 关联日记",
+      "date": {
+        "mode": "created_time",
+        "property": "创建时间"
+      },
+      "titleProperties": ["标题", "Name", "Title"]
+    },
+    {
+      "name": "Emails",
+      "dataSourceId": "replace-with-emails-data-source-id",
+      "relationProperty": "📔 每日日记",
+      "date": {
+        "mode": "date_created_time_fallback",
+        "properties": ["Received", "Created time"]
+      },
+      "titleProperties": ["Subject", "Name", "Title"]
+    }
+  ]
+}
