@@ -1,0 +1,4 @@
+interface:
+  display_name: "Notion Daily Journal Linker"
+  short_description: "Auto-link Notion records to daily journals"
+  default_prompt: "Use $notion-link-daily-journals to link recent Notion database records to matching daily journal pages."
