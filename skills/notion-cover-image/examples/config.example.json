@@ -1,0 +1,27 @@
+{
+  "timezone": "Asia/Shanghai",
+  "dataSourceId": "replace-with-notion-data-source-id",
+  "dateProperty": "日期",
+  "titleProperty": "标题",
+  "labelPrefix": "DIARY",
+  "cover": {
+    "width": 2048,
+    "height": 1152,
+    "textColor": "fff3cf",
+    "font": "playfair-display",
+    "monthlyBackgroundColors": {
+      "01": "243044",
+      "02": "4a2138",
+      "03": "31523b",
+      "04": "5f6f52",
+      "05": "681321",
+      "06": "25345d",
+      "07": "0b2f28",
+      "08": "6b402c",
+      "09": "1d4e57",
+      "10": "3b2447",
+      "11": "7a3a2c",
+      "12": "152238"
+    }
+  }
+}
